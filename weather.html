@@ -1,0 +1,84 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    width: 351px;
+    height: 183px;
+    margin: 40px;
+}
+.sec1, .sec2, .sec3{
+    width: 114px;
+    height: 183px;
+    float: left;
+    margin-right: 3px;
+    min-width: 114px;
+}
+.head, .footer {
+    width: 114px;
+    font-family: "times new roman";
+}
+.head {
+    background: #0097B9;
+    height: 33px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 33px;
+    font-size: 1.7em;
+}
+.footer{
+    background: #ffffff;
+    height: 36px;
+    color: #000000;
+    text-align: center;
+    line-height: 36px;
+    font-size: 2em;
+}
+.body1, .body2, .body3{
+    width: 114px;
+    height: 94px;
+}
+.body1{
+    background: url("http://htmlbook.ru/files/weather-sun.jpg") no-repeat;
+}
+.body2{
+    background: url("http://htmlbook.ru/files/weather-snow.jpg") no-repeat;
+}
+.body3{
+    background: url("http://htmlbook.ru/files/weather-blizzard.jpg") no-repeat;
+}
+.sec1:hover,
+.sec2:hover,
+.sec3:hover{
+    box-shadow: 0 0 2px 2px #919191;
+    transition: all 0.5s;
+}
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="sec1">
+        <div class="head">31.08</div>
+        <div class="body1"></div>
+        <div class="footer">+20	&#176;</div>
+    </div>
+    <div class="sec2">
+        <div class="head">01.09</div>
+        <div class="body2"></div>
+        <div class="footer">-3	&#176;</div>
+    </div>
+    <div class="sec3">
+        <div class="head">02.09</div>
+        <div class="body3"></div>
+        <div class="footer">-10	&#176;</div>
+    </div>
+
+</div>
+</body>
+</html>
